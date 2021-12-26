@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 150px;
+}
+
+.jules-wyvern {
+    font-weight: normal;
+    color: white;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+    margin: auto;
+    padding: 8px;
+    height: 500px;
+    width: 20%;
+    
+}
+
+.equilibrium {
+    height: 100px;
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.footer img {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin: 10px 20px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover { 
+    color: hsl(178, 100%, 50%); 
+}
