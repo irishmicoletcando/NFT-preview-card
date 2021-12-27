@@ -7,9 +7,9 @@ body {
     margin: 150px;
 }
 
-.jules-wyvern {
-    font-weight: normal;
-    color: white;
+#container {
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 .card {
@@ -17,18 +17,15 @@ body {
     border: 1px solid hsl(216, 50%, 16%);
     border-radius: 12px;
     box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
-    margin: auto;
-    padding: 8px;
-    height: 500px;
-    width: 20%;
-    
+    padding: 20px;
 }
 
 .equilibrium {
-    height: 100px;
     width: 100%;
     border-radius: 12px;
-    margin: 10px;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
 }
 
 .footer img {
@@ -50,4 +47,9 @@ body {
 
 .attribution a:hover { 
     color: hsl(178, 100%, 50%); 
+}
+
+.jules-wyvern {
+    font-weight: normal;
+    color: white;
 }
