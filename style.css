@@ -3,13 +3,13 @@ body {
     color:hsl(215, 51%, 70%);
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: lighter;
     margin: 150px;
 }
 
 #container {
-    max-width: 350px;
-    margin: 0 auto;
+    max-width: 320px;
+    margin: auto;
 }
 
 .card {
@@ -17,23 +17,60 @@ body {
     border: 1px solid hsl(216, 50%, 16%);
     border-radius: 12px;
     box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
-    padding: 20px;
+    padding: 15px;
 }
 
 .equilibrium {
     width: 100%;
     border-radius: 12px;
-    height: 200px;
+    height: 250px;
     margin: auto;
     object-fit: cover;
 }
 
-.footer img {
+h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.eth-price{
+    float: left;
+    margin-right: 10px;
+}
+
+.days {
+    float: right;
+}
+
+.days-text {
+    display:flex;
+}
+.footer {
     border: 1px solid white;
     border-radius: 15px;
     height: 30px;
     width: 30px;
-    margin: 10px 20px;
+    margin: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin: auto 10px;
+    padding: 8px;
+}
+
+.jules-wyvern {
+    font-weight: normal;
+    color: white;
+    font-size: 14px;
 }
 
 .attribution { 
@@ -47,9 +84,4 @@ body {
 
 .attribution a:hover { 
     color: hsl(178, 100%, 50%); 
-}
-
-.jules-wyvern {
-    font-weight: normal;
-    color: white;
 }
