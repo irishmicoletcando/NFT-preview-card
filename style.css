@@ -28,6 +28,20 @@ body {
     object-fit: cover;
 }
 
+.image::after{
+    position: absolute;
+    content: url("images/icon-view.svg");
+    width: 30px;
+    height: 30px;
+    left: 48.5%;
+    top: 37%;
+    opacity: 50;
+  }
+
+.image::after:hover{
+    opacity: 1;
+}
+
 hr {
     border-top: 0.1px solid rgb(72,72,72);
     border-bottom: 0;
@@ -35,13 +49,14 @@ hr {
     border-right: 0;
 }
 
-h3 {
+h1 {
     color: white;
-    font-weight: bold;
+    font-size: 18px;
 }
 
-h3:hover {
+h1:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .details-container {
@@ -91,6 +106,7 @@ h3:hover {
 
 .jules-wyvern:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .attribution { 
