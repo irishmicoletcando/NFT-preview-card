@@ -40,6 +40,10 @@ h3 {
     font-weight: bold;
 }
 
+h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+
 .details-container {
     display: flex;
     align-items: center;
@@ -83,6 +87,10 @@ h3 {
     font-weight: normal;
     color: white;
     font-size: 14px;
+}
+
+.jules-wyvern:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .attribution { 
