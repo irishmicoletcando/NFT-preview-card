@@ -40,11 +40,10 @@ h3 {
     font-weight: bold;
 }
 
-.detail {
+.details-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
 }
 
 .details {
@@ -60,19 +59,23 @@ h3 {
     font-size: 15px;
 }
 
+.days-text {
+    font-size: 15px;
+}
+
 .footer {
     border: 1px solid white;
     border-radius: 15px;
+    float: left;
     height: 30px;
     width: 30px;
     margin: auto;
-    float: left;
     margin-right: 10px;
 }
 
 .footer-text {
     font-size: 14px;
-    margin: auto 10px;
+    margin: auto 20px;
     padding: 8px;
 }
 
